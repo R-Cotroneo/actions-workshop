@@ -1,4 +1,4 @@
-name: Say Hi
+name: Say hi
 
 on:
   workflow_dispatch:
