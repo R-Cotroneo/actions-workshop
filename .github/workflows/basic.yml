@@ -7,6 +7,6 @@ jobs:
   greet:
     name: Say hi to the user
     runs-on: ubuntu-latest
-    steos:
+    steps:
       - name: Run echo
         run: "Hello World!"
