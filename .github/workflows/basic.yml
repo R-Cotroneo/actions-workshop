@@ -1,0 +1,12 @@
+name: Say Hi!
+
+on:
+  workflow_dispatch:
+
+jobs:
+  greet:
+    name: Say hi to the user
+    runs-on: ubuntu-latest
+    steos:
+      - name: Run echo
+        run: "Hello World!"
